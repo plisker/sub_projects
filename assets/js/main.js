@@ -9,6 +9,7 @@
 	var $window = $(window),
 		$body = $('body'),
 		$header = $('#header'),
+		$headerBackground = $('#background-overlay'),
 		$footer = $('#footer'),
 		$main = $('#main'),
 		settings = {
@@ -73,16 +74,16 @@
 				breakpoints.on('<=medium', function() {
 
 					$window.off('scroll.strata_parallax');
-					$header.css('background-position', '');
+					$headerBackground.css('background-position', '');
 
 				});
 
 				breakpoints.on('>medium', function() {
 
-					$header.css('background-position', 'left 0px');
+					$headerBackground.css('background-position', 'left 0px');
 
 					$window.on('scroll.strata_parallax', function() {
-						$header.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
+						$headerBackground.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
 					});
 
 				});
