@@ -173,7 +173,7 @@ html {
 }
 
 body {
-	background: #fff;
+	background: #ffffff;
 }
 
 body.is-preload *,
@@ -193,7 +193,7 @@ body,
 input,
 select,
 textarea {
-	color: #a2a2a2;
+	color: #8f8f8f;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 16pt;
 	font-weight: 400;
@@ -297,7 +297,7 @@ sup {
 
 hr {
 	border: 0;
-	border-bottom: solid 2px #efefef;
+	border-bottom: solid 2px #e7e7e7;
 	margin: 2em 0;
 }
 
@@ -306,7 +306,7 @@ hr.major {
 }
 
 blockquote {
-	border-left: solid 6px #efefef;
+	border-left: solid 6px #e7e7e7;
 	font-style: italic;
 	margin: 0 0 2em 0;
 	padding: 0.5em 0 0.5em 1.5em;
@@ -315,7 +315,7 @@ blockquote {
 code {
 	background: #f7f7f7;
 	border-radius: 0.35em;
-	border: solid 2px #efefef;
+	border: solid 2px #e7e7e7;
 	font-family: "Courier New", monospace;
 	font-size: 0.9em;
 	margin: 0 0.25em;
@@ -2003,7 +2003,7 @@ input[type="radio"] {
 input[type="checkbox"]+label,
 input[type="radio"]+label {
 	text-decoration: none;
-	color: #a2a2a2;
+	color: #8f8f8f;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 1em;
@@ -2089,7 +2089,7 @@ input[type="radio"]+label:before {
 
 .box {
 	border-radius: 0.35em;
-	border: solid 2px #efefef;
+	border: solid 2px #e7e7e7;
 	margin-bottom: 2em;
 	padding: 1.5em;
 }
@@ -2284,7 +2284,7 @@ ul.alt {
 }
 
 ul.alt li {
-	border-top: solid 2px #efefef;
+	border-top: solid 2px #e7e7e7;
 	padding: 0.5em 0;
 }
 
@@ -2484,7 +2484,7 @@ table {
 }
 
 table tbody tr {
-	border: solid 1px #efefef;
+	border: solid 1px #e7e7e7;
 	border-left: 0;
 	border-right: 0;
 }
@@ -2506,11 +2506,11 @@ table th {
 }
 
 table thead {
-	border-bottom: solid 2px #efefef;
+	border-bottom: solid 2px #e7e7e7;
 }
 
 table tfoot {
-	border-top: solid 2px #efefef;
+	border-top: solid 2px #e7e7e7;
 }
 
 table.alt {
@@ -2518,7 +2518,7 @@ table.alt {
 }
 
 table.alt tbody tr td {
-	border: solid 2px #efefef;
+	border: solid 2px #e7e7e7;
 	border-left-width: 0;
 	border-top-width: 0;
 }
@@ -2555,7 +2555,7 @@ input[type="button"],
 	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	background-color: transparent;
 	border-radius: 0.35em;
-	border: solid 3px #efefef;
+	border: solid 3px #e7e7e7;
 	color: #787878 !important;
 	cursor: pointer;
 	display: inline-block;
@@ -2723,7 +2723,7 @@ input[type="button"]:disabled,
 	background-image: url("/images/bg.jpg");
 	background-position: top left, top left;
 	background-repeat: repeat, no-repeat;
-	background-size: auto, 150%;
+	background-size: 80%;
 	filter: brightness(40%);
 	z-index: -1; /* Ensure it's behind the text content */
 }
@@ -2819,7 +2819,7 @@ input[type="button"]:disabled,
 }
 
 #main>section {
-	border-top: solid 2px #efefef;
+	border-top: solid 2px #e7e7e7;
 	margin: 4em 0 0 0;
 	padding: 4em 0 0 0;
 }
