@@ -2728,6 +2728,12 @@ input[type="button"]:disabled,
 	z-index: -1; /* Ensure it's behind the text content */
 }
 
+@supports (background-image: url("/images/bg.webp")) {
+	.background-overlay {
+		background-image: url("/images/bg.webp");
+	}
+}
+
 .content {
 	position: relative; /* Ensure content appears above the overlay */
 }
