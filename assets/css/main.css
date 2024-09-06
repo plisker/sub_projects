@@ -212,7 +212,7 @@ a {
 
 a:hover {
 	border-bottom-color: transparent;
-	color: #209cee !important;
+	color: #b4846c !important;
 	text-decoration: none;
 }
 
@@ -1949,7 +1949,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-	border-color: #209cee;
+	border-color: #b4846c;
 }
 
 select {
@@ -2054,7 +2054,7 @@ input[type="radio"]:checked+label:before {
 
 input[type="checkbox"]:focus+label:before,
 input[type="radio"]:focus+label:before {
-	border-color: #209cee;
+	border-color: #b4846c;
 }
 
 input[type="checkbox"]+label:before {
@@ -2574,8 +2574,8 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-	border-color: #209cee;
-	color: #209cee !important;
+	border-color: #b4846c;
+	color: #b4846c !important;
 }
 
 input[type="submit"]:active,
@@ -2583,8 +2583,8 @@ input[type="reset"]:active,
 input[type="button"]:active,
 .button:active {
 	background-color: rgba(73, 191, 157, 0.1);
-	border-color: #209cee;
-	color: #209cee !important;
+	border-color: #b4846c;
+	color: #b4846c !important;
 }
 
 input[type="submit"].icon,
@@ -2627,8 +2627,8 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 input[type="button"].primary,
 .button.primary {
-	background-color: #209cee;
-	border-color: #209cee;
+	background-color: #b4846c;
+	border-color: #b4846c;
 	color: #ffffff !important;
 }
 
@@ -2723,8 +2723,8 @@ input[type="button"]:disabled,
 	background-image: url("/images/bg.jpg");
 	background-position: top left, top left;
 	background-repeat: repeat, no-repeat;
-	background-size: 80%;
-	filter: brightness(40%);
+	background-size: 150%;
+	filter: brightness(65%);
 	z-index: -1; /* Ensure it's behind the text content */
 }
 
