@@ -195,6 +195,7 @@ img {
 .sidebar .intro-sidebar a {
     color: var(--accent-text);
     font-style: italic;
+    white-space: nowrap;
     transition: color 400ms ease;
 }
 
