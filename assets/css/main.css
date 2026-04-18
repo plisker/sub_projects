@@ -1,4 +1,3 @@
-@import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
 /*
@@ -193,7 +192,7 @@ body,
 input,
 select,
 textarea {
-	color: #8f8f8f;
+	color: #737373;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 16pt;
 	font-weight: 400;
@@ -206,7 +205,7 @@ a {
 	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	border-bottom: dotted 1px;
-	color: #3c96d2;
+	color: #2d78ad;
 	text-decoration: none;
 }
 
@@ -218,7 +217,7 @@ a:hover {
 
 strong,
 b {
-	color: #787878;
+	color: #757575;
 	font-weight: 400;
 }
 
@@ -237,7 +236,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #787878;
+	color: #757575;
 	font-weight: 400;
 	line-height: 1em;
 	margin: 0 0 1em 0;
@@ -1909,7 +1908,7 @@ form {
 }
 
 label {
-	color: #787878;
+	color: #757575;
 	display: block;
 	font-size: 0.9em;
 	font-weight: 400;
@@ -1963,7 +1962,7 @@ select {
 }
 
 select option {
-	color: #787878;
+	color: #757575;
 	background: #fff;
 }
 
@@ -2046,8 +2045,8 @@ input[type="radio"]+label:before {
 
 input[type="checkbox"]:checked+label:before,
 input[type="radio"]:checked+label:before {
-	background: #787878;
-	border-color: #787878;
+	background: #757575;
+	border-color: #757575;
 	color: #fff;
 	content: '\f00c';
 }
@@ -2241,6 +2240,7 @@ input[type="radio"]+label:before {
 
 .image.fit img {
 	width: 100%;
+	height: auto;
 }
 
 .image.avatar {
@@ -2254,6 +2254,7 @@ input[type="radio"]+label:before {
 .image.avatar img {
 	border-radius: 100%;
 	width: 100%;
+	height: auto;
 }
 
 /* List */
@@ -2498,7 +2499,7 @@ table td {
 }
 
 table th {
-	color: #787878;
+	color: #757575;
 	font-size: 0.9em;
 	font-weight: 400;
 	padding: 0 0.75em 0.75em 0.75em;
@@ -2556,7 +2557,7 @@ input[type="button"],
 	background-color: transparent;
 	border-radius: 0.35em;
 	border: solid 3px #e7e7e7;
-	color: #787878 !important;
+	color: #757575 !important;
 	cursor: pointer;
 	display: inline-block;
 	font-weight: 400;
