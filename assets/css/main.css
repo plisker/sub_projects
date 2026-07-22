@@ -165,6 +165,13 @@ img {
     }
 }
 
+/* Sidebar (~910px) doesn't fit short viewports; let it scroll with the page */
+@media (min-width: 900px) and (max-height: 950px) {
+    .sidebar {
+        position: static;
+    }
+}
+
 .sidebar .name {
     font-family: var(--serif);
     font-weight: 400;
