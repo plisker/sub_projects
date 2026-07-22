@@ -1,22 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JERQFZR6JP"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-JERQFZR6JP"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-JERQFZR6JP');
+      gtag("config", "G-JERQFZR6JP");
     </script>
     <title>Paul Lisker | Projects</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description"
-        content="Personal projects, privacy research, and press coverage by Paul Lisker — software engineer, previously at Mark43 and Palantir." />
-    <meta name="keywords" content="projects, software engineering, privacy, research, mark43, palantir" />
+    <meta
+      name="description"
+      content="Personal projects, privacy research, and press coverage by Paul Lisker — software engineer, previously at Mark43 and Palantir."
+    />
+    <meta
+      name="keywords"
+      content="projects, software engineering, privacy, research, mark43, palantir"
+    />
     <meta name="author" content="Paul Lisker" />
     <link rel="canonical" href="https://projects.lisker.me/" />
     <!-- Open Graph -->
@@ -24,296 +33,480 @@
     <meta property="og:site_name" content="Paul Lisker · Projects" />
     <meta property="og:url" content="https://projects.lisker.me/" />
     <meta property="og:title" content="Paul Lisker | Projects" />
-    <meta property="og:description"
-        content="Personal projects, privacy research, and press coverage by Paul Lisker — software engineer, previously at Mark43 and Palantir." />
-    <meta property="og:image" content="https://projects.lisker.me/images/avatar-compressed.jpg" />
+    <meta
+      property="og:description"
+      content="Personal projects, privacy research, and press coverage by Paul Lisker — software engineer, previously at Mark43 and Palantir."
+    />
+    <meta
+      property="og:image"
+      content="https://projects.lisker.me/images/avatar-compressed.jpg"
+    />
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Paul Lisker | Projects" />
-    <meta name="twitter:description"
-        content="Personal projects, privacy research, and press coverage by Paul Lisker — software engineer, previously at Mark43 and Palantir." />
-    <meta name="twitter:image" content="https://projects.lisker.me/images/avatar-compressed.jpg" />
+    <meta
+      name="twitter:description"
+      content="Personal projects, privacy research, and press coverage by Paul Lisker — software engineer, previously at Mark43 and Palantir."
+    />
+    <meta
+      name="twitter:image"
+      content="https://projects.lisker.me/images/avatar-compressed.jpg"
+    />
     <!-- Fonts and icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Roboto:wght@300;400;500;700&display=swap" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/favicons/site.webmanifest">
-    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
     <meta name="application-name" content="Paul Lisker · Projects" />
     <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "name": "Paul Lisker · Projects",
-          "alternateName": "Paul Lisker | Projects",
-          "url": "https://projects.lisker.me/"
-        }
-      </script>
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Paul Lisker · Projects",
+        "alternateName": "Paul Lisker | Projects",
+        "url": "https://projects.lisker.me/"
+      }
+    </script>
     <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Person",
-          "name": "Paul Lisker",
-          "url": "https://projects.lisker.me/",
-          "jobTitle": "Software Engineer",
-          "alumniOf": {
-            "@type": "CollegeOrUniversity",
-            "name": "Harvard University"
-          },
-          "sameAs": [
-            "https://www.linkedin.com/in/paullisker/",
-            "https://www.instagram.com/paullisker/",
-            "https://letterboxd.com/plisker/",
-            "https://github.com/plisker/",
-            "https://scholar.google.com/citations?user=TRufNXcAAAAJ",
-            "https://soundcloud.com/paul-lisker",
-            "https://www.last.fm/user/paullisker",
-            "https://medium.com/@paullisker"
-          ]
-        }
-      </script>
-</head>
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Paul Lisker",
+        "url": "https://projects.lisker.me/",
+        "jobTitle": "Software Engineer",
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Harvard University"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/paullisker/",
+          "https://www.instagram.com/paullisker/",
+          "https://letterboxd.com/plisker/",
+          "https://github.com/plisker/",
+          "https://scholar.google.com/citations?user=TRufNXcAAAAJ",
+          "https://soundcloud.com/paul-lisker",
+          "https://www.last.fm/user/paullisker",
+          "https://medium.com/@paullisker"
+        ]
+      }
+    </script>
+  </head>
 
-<body>
+  <body>
     <header class="glyph">
-        <a href="https://lisker.me" aria-label="Home — Paul Lisker">
-            <i class="fa-solid fa-code" aria-hidden="true"></i>
-            <i class="fa-solid fa-house" aria-hidden="true"></i>
-        </a>
+      <a href="https://lisker.me" aria-label="Home — Paul Lisker">
+        <i class="fa-solid fa-code" aria-hidden="true"></i>
+        <i class="fa-solid fa-house" aria-hidden="true"></i>
+      </a>
     </header>
 
     <div class="shell">
-        <aside class="sidebar">
-            <h1 class="name">Paul Lisker</h1>
-            <p class="tagline">
-                Engineering,<br />
-                Research,<br />
-                Side Builds.
-            </p>
-            <p class="intro-sidebar">
-                I'm a founding software engineer at <a href="http://electiotechnologies.com/" target="_blank" rel="noopener noreferrer">Electio Technologies</a>, where I build backend systems and infrastructure from the ground up.
-            </p>
-            <p class="intro-sidebar">
-                Before Electio, I worked at <a href="https://mark43.com" target="_blank" rel="noopener noreferrer">Mark43</a> on software for public safety agencies, and earlier at <a href="https://palantir.com" target="_blank" rel="noopener noreferrer">Palantir</a>. I keep gravitating toward the intersection of technology, privacy, and public institutions.
-            </p>
-            <p class="intro-sidebar">
-                Before that, I was a Fellow at the Federal Trade Commission and co-authored a study on privacy vulnerabilities in darknet markets, which was covered by <i>The Washington Post</i> and <i>The Sunday Times</i>. I studied computer science at Harvard.
-            </p>
-            <p class="resume-link">
-                <a href="https://lisker.me/lisker_resume.pdf" target="_blank" rel="noopener noreferrer">Download résumé &rarr;</a>
-            </p>
-            <ul class="socials" aria-label="Social links">
-                <li><a href="https://www.linkedin.com/in/paullisker/" target="_blank" rel="noopener noreferrer"
-                        aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a></li>
-                <li><a href="https://github.com/plisker/" target="_blank" rel="noopener noreferrer"
-                        aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
-                <li><a href="mailto:paul@lisker.me" aria-label="Email"><i class="fa-regular fa-envelope"
-                            aria-hidden="true"></i></a></li>
-            </ul>
-        </aside>
+      <aside class="sidebar">
+        <h1 class="name">Paul Lisker</h1>
+        <p class="tagline">
+          Engineering,<br />
+          Research,<br />
+          Side Builds.
+        </p>
+        <p class="intro-sidebar">
+          I'm a founding software engineer at
+          <a
+            href="http://electiotechnologies.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Electio Technologies</a
+          >, where I build backend systems and infrastructure from the ground
+          up.
+        </p>
+        <p class="intro-sidebar">
+          Before Electio, I worked at
+          <a href="https://mark43.com" target="_blank" rel="noopener noreferrer"
+            >Mark43</a
+          >
+          on software for public safety agencies, and earlier at
+          <a
+            href="https://palantir.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Palantir</a
+          >. I keep gravitating toward the intersection of technology, privacy,
+          and public institutions.
+        </p>
+        <p class="intro-sidebar">
+          Before that, I was a Fellow at the Federal Trade Commission and
+          co-authored a study on privacy vulnerabilities in darknet markets,
+          which was covered by <i>The Washington Post</i> and
+          <i>The Sunday Times</i>. I studied computer science at Harvard.
+        </p>
+        <p class="resume-link">
+          <a
+            href="https://lisker.me/lisker_resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Download résumé &rarr;</a
+          >
+        </p>
+        <ul class="socials" aria-label="Social links">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/paullisker/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/plisker/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+              ><i class="fa-brands fa-github" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="mailto:paul@lisker.me" aria-label="Email"
+              ><i class="fa-regular fa-envelope" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+      </aside>
 
-        <main class="content">
-            <p class="intro">
-                A mix of software writing, privacy research, and things I built with my hands.
-            </p>
+      <main class="content">
+        <p class="intro">
+          A mix of software writing, privacy research, and things I built with
+          my hands.
+        </p>
 
-            <div class="card-grid">
-                <article class="project-card">
-                    <a href="https://www.eraser.io/decision-node/analyzers-in-elasticsearch-and-opensearch-how-to-design-the-searches-you-need"
-                        target="_blank" rel="noopener noreferrer">
-                        <div class="project-thumb">
-                            <img src="images/thumbs/decision-node.png" alt="Decision Node blog post thumbnail"
-                                width="370" height="217" loading="lazy" />
-                        </div>
-                        <div class="project-body">
-                            <h2 class="project-title">Analyzers in Elasticsearch &amp; OpenSearch</h2>
-                            <p class="project-meta">
-                                <span class="project-kind">Blog Post</span>
-                                <span class="dot">·</span>
-                                <span class="project-date">2024</span>
-                            </p>
-                            <p class="project-blurb">
-                                How tokenizers, filters, and normalizers shape search relevance — a practitioner's guide, published on Eraser's <i>Decision Node</i>.
-                            </p>
-                        </div>
-                    </a>
-                </article>
+        <div class="card-grid">
+          <article class="project-card">
+            <a
+              href="https://www.eraser.io/decision-node/analyzers-in-elasticsearch-and-opensearch-how-to-design-the-searches-you-need"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-thumb">
+                <img
+                  src="images/thumbs/decision-node.png"
+                  alt="Decision Node blog post thumbnail"
+                  width="370"
+                  height="217"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-body">
+                <h2 class="project-title">
+                  Analyzers in Elasticsearch &amp; OpenSearch
+                </h2>
+                <p class="project-meta">
+                  <span class="project-kind">Blog Post</span>
+                  <span class="dot">·</span>
+                  <span class="project-date">2024</span>
+                </p>
+                <p class="project-blurb">
+                  How tokenizers, filters, and normalizers shape search
+                  relevance — a practitioner's guide, published on Eraser's
+                  <i>Decision Node</i>.
+                </p>
+              </div>
+            </a>
+          </article>
 
-                <article class="project-card">
-                    <a href="https://github.com/plisker/speaker-saver" target="_blank" rel="noopener noreferrer">
-                        <div class="project-thumb">
-                            <img src="images/thumbs/rpi.jpg" alt="Raspberry Pi running SpeakerSaver" width="370"
-                                height="217" loading="lazy" />
-                        </div>
-                        <div class="project-body">
-                            <h2 class="project-title">SpeakerSaver</h2>
-                            <p class="project-meta">
-                                <span class="project-kind">Hardware</span>
-                                <span class="dot">·</span>
-                                <span class="project-date">2023</span>
-                            </p>
-                            <p class="project-blurb">
-                                A Raspberry Pi that listens for silence and cuts power to my studio monitors, so I stop leaving them on overnight.
-                            </p>
-                        </div>
-                    </a>
-                </article>
+          <article class="project-card">
+            <a
+              href="https://github.com/plisker/speaker-saver"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-thumb">
+                <img
+                  src="images/thumbs/rpi.jpg"
+                  alt="Raspberry Pi running SpeakerSaver"
+                  width="370"
+                  height="217"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-body">
+                <h2 class="project-title">SpeakerSaver</h2>
+                <p class="project-meta">
+                  <span class="project-kind">Hardware</span>
+                  <span class="dot">·</span>
+                  <span class="project-date">2023</span>
+                </p>
+                <p class="project-blurb">
+                  A Raspberry Pi that listens for silence and cuts power to my
+                  studio monitors, so I stop leaving them on overnight.
+                </p>
+              </div>
+            </a>
+          </article>
 
-                <article class="project-card">
-                    <a href="https://open.spotify.com/episode/0sv0lbzWcy2AuIH8bGpdas?si=73b86b4ce32e4320"
-                        target="_blank" rel="noopener noreferrer">
-                        <div class="project-thumb">
-                            <img src="images/thumbs/m43.jpg" alt="Mark43 Pinpoint podcast cover" width="370"
-                                height="217" loading="lazy" />
-                        </div>
-                        <div class="project-body">
-                            <h2 class="project-title">Next-Generation 911 and Traumatic Imagery</h2>
-                            <p class="project-meta">
-                                <span class="project-kind">Podcast</span>
-                                <span class="dot">·</span>
-                                <span class="project-date">Jun 2019</span>
-                            </p>
-                            <p class="project-blurb">
-                                Interview on Mark43's <i>Pinpoint</i> podcast about what dispatchers see, and how software can shield them from the worst of it.
-                            </p>
-                        </div>
-                    </a>
-                </article>
+          <article class="project-card">
+            <a
+              href="https://open.spotify.com/episode/0sv0lbzWcy2AuIH8bGpdas?si=73b86b4ce32e4320"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-thumb">
+                <img
+                  src="images/thumbs/m43.jpg"
+                  alt="Mark43 Pinpoint podcast cover"
+                  width="370"
+                  height="217"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-body">
+                <h2 class="project-title">
+                  Next-Generation 911 and Traumatic Imagery
+                </h2>
+                <p class="project-meta">
+                  <span class="project-kind">Podcast</span>
+                  <span class="dot">·</span>
+                  <span class="project-date">Jun 2019</span>
+                </p>
+                <p class="project-blurb">
+                  Interview on Mark43's <i>Pinpoint</i> podcast about what
+                  dispatchers see, and how software can shield them from the
+                  worst of it.
+                </p>
+              </div>
+            </a>
+          </article>
 
-                <article class="project-card">
-                    <a href="https://www.thetimes.co.uk/edition/news/dark-net-dealers-dragged-into-the-light-kx05bc3jd"
-                        target="_blank" rel="noopener noreferrer">
-                        <div class="project-thumb">
-                            <img src="images/thumbs/newspaper.jpg" alt="Sunday Times front page" width="370"
-                                height="217" loading="lazy" />
-                        </div>
-                        <div class="project-body">
-                            <h2 class="project-title">Dark-net dealers dragged into the light</h2>
-                            <p class="project-meta">
-                                <span class="project-kind">Press</span>
-                                <span class="dot">·</span>
-                                <span class="project-date">Feb 2017</span>
-                            </p>
-                            <p class="project-blurb">
-                                <i>The Sunday Times</i> investigation inspired by the darknet-market geolocation research below.
-                            </p>
-                        </div>
-                    </a>
-                </article>
+          <article class="project-card">
+            <a
+              href="https://www.thetimes.co.uk/edition/news/dark-net-dealers-dragged-into-the-light-kx05bc3jd"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-thumb">
+                <img
+                  src="images/thumbs/newspaper.jpg"
+                  alt="Sunday Times front page"
+                  width="370"
+                  height="217"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-body">
+                <h2 class="project-title">
+                  Dark-net dealers dragged into the light
+                </h2>
+                <p class="project-meta">
+                  <span class="project-kind">Press</span>
+                  <span class="dot">·</span>
+                  <span class="project-date">Feb 2017</span>
+                </p>
+                <p class="project-blurb">
+                  <i>The Sunday Times</i> investigation inspired by the
+                  darknet-market geolocation research below.
+                </p>
+              </div>
+            </a>
+          </article>
 
-                <article class="project-card">
-                    <a href="https://www.washingtonpost.com/news/the-switch/wp/2016/09/15/how-drug-listings-on-the-dark-net-may-have-revealed-sellers-locations/"
-                        target="_blank" rel="noopener noreferrer">
-                        <div class="project-thumb">
-                            <img src="images/thumbs/washpo.jpg" alt="Washington Post logo" width="370" height="217"
-                                loading="lazy" />
-                        </div>
-                        <div class="project-body">
-                            <h2 class="project-title">How dark-net listings revealed sellers' locations</h2>
-                            <p class="project-meta">
-                                <span class="project-kind">Press</span>
-                                <span class="dot">·</span>
-                                <span class="project-date">Sep 2016</span>
-                            </p>
-                            <p class="project-blurb">
-                                <i>Washington Post</i> Switch coverage of the darknet geolocation findings.
-                            </p>
-                        </div>
-                    </a>
-                </article>
+          <article class="project-card">
+            <a
+              href="https://www.washingtonpost.com/news/the-switch/wp/2016/09/15/how-drug-listings-on-the-dark-net-may-have-revealed-sellers-locations/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-thumb">
+                <img
+                  src="images/thumbs/washpo.jpg"
+                  alt="Washington Post logo"
+                  width="370"
+                  height="217"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-body">
+                <h2 class="project-title">
+                  How dark-net listings revealed sellers' locations
+                </h2>
+                <p class="project-meta">
+                  <span class="project-kind">Press</span>
+                  <span class="dot">·</span>
+                  <span class="project-date">Sep 2016</span>
+                </p>
+                <p class="project-blurb">
+                  <i>Washington Post</i> Switch coverage of the darknet
+                  geolocation findings.
+                </p>
+              </div>
+            </a>
+          </article>
 
-                <article class="project-card">
-                    <a href="https://medium.com/@roselisker/illuminating-the-dark-web-d088a9c80240" target="_blank"
-                        rel="noopener noreferrer">
-                        <div class="project-thumb">
-                            <img src="images/thumbs/medium-geotag.jpg" alt="Medium article header" width="370"
-                                height="217" loading="lazy" />
-                        </div>
-                        <div class="project-body">
-                            <h2 class="project-title">Geolocation leaks in darknet markets</h2>
-                            <p class="project-meta">
-                                <span class="project-kind">Publication</span>
-                                <span class="dot">·</span>
-                                <span class="project-date">Sep 2016</span>
-                            </p>
-                            <p class="project-blurb">
-                                A study of how vendor photos exposed real-world locations, co-authored with Michael Rose on <i>Medium</i>.
-                            </p>
-                        </div>
-                    </a>
-                </article>
+          <article class="project-card">
+            <a
+              href="https://medium.com/@roselisker/illuminating-the-dark-web-d088a9c80240"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-thumb">
+                <img
+                  src="images/thumbs/medium-geotag.jpg"
+                  alt="Medium article header"
+                  width="370"
+                  height="217"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-body">
+                <h2 class="project-title">
+                  Geolocation leaks in darknet markets
+                </h2>
+                <p class="project-meta">
+                  <span class="project-kind">Publication</span>
+                  <span class="dot">·</span>
+                  <span class="project-date">Sep 2016</span>
+                </p>
+                <p class="project-blurb">
+                  A study of how vendor photos exposed real-world locations,
+                  co-authored with Michael Rose on <i>Medium</i>.
+                </p>
+              </div>
+            </a>
+          </article>
 
-                <article class="project-card">
-                    <a href="https://techscience.org/a/2015103001/" target="_blank" rel="noopener noreferrer">
-                        <div class="project-thumb">
-                            <img src="images/thumbs/mobile-apps.jpg" alt="Mobile apps research thumbnail" width="370"
-                                height="217" loading="lazy" />
-                        </div>
-                        <div class="project-body">
-                            <h2 class="project-title">Personal data sharing by mobile apps</h2>
-                            <p class="project-meta">
-                                <span class="project-kind">Publication</span>
-                                <span class="dot">·</span>
-                                <span class="project-date">Oct 2015</span>
-                            </p>
-                            <p class="project-blurb">
-                                What your phone sends, and to whom &mdash; <i>Journal of Technology Science</i>, written as a Fellow at the Federal Trade Commission.
-                            </p>
-                        </div>
-                    </a>
-                </article>
+          <article class="project-card">
+            <a
+              href="https://techscience.org/a/2015103001/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-thumb">
+                <img
+                  src="images/thumbs/mobile-apps.jpg"
+                  alt="Mobile apps research thumbnail"
+                  width="370"
+                  height="217"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-body">
+                <h2 class="project-title">
+                  Personal data sharing by mobile apps
+                </h2>
+                <p class="project-meta">
+                  <span class="project-kind">Publication</span>
+                  <span class="dot">·</span>
+                  <span class="project-date">Oct 2015</span>
+                </p>
+                <p class="project-blurb">
+                  What your phone sends, and to whom &mdash;
+                  <i>Journal of Technology Science</i>, written as a Fellow at
+                  the Federal Trade Commission.
+                </p>
+              </div>
+            </a>
+          </article>
 
-                <article class="project-card">
-                    <a href="https://medium.com/@paullisker/building-an-electric-guitar-3c85616dc85b" target="_blank"
-                        rel="noopener noreferrer">
-                        <div class="project-thumb">
-                            <img src="images/thumbs/guitar.jpg" alt="Custom-built electric guitar" width="370"
-                                height="217" loading="lazy" />
-                        </div>
-                        <div class="project-body">
-                            <h2 class="project-title">Building an electric guitar</h2>
-                            <p class="project-meta">
-                                <span class="project-kind">Hardware</span>
-                                <span class="dot">·</span>
-                                <span class="project-date">2015</span>
-                            </p>
-                            <p class="project-blurb">
-                                Telecaster-inspired build from raw wood to working instrument, for Harvard's Computational Music Theory course.
-                            </p>
-                        </div>
-                    </a>
-                </article>
-            </div>
-        </main>
+          <article class="project-card">
+            <a
+              href="https://medium.com/@paullisker/building-an-electric-guitar-3c85616dc85b"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-thumb">
+                <img
+                  src="images/thumbs/guitar.jpg"
+                  alt="Custom-built electric guitar"
+                  width="370"
+                  height="217"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-body">
+                <h2 class="project-title">Building an electric guitar</h2>
+                <p class="project-meta">
+                  <span class="project-kind">Hardware</span>
+                  <span class="dot">·</span>
+                  <span class="project-date">2015</span>
+                </p>
+                <p class="project-blurb">
+                  Telecaster-inspired build from raw wood to working instrument,
+                  for Harvard's Computational Music Theory course.
+                </p>
+              </div>
+            </a>
+          </article>
+        </div>
+      </main>
     </div>
 
     <footer class="site-footer">
-        <ul class="socials" aria-label="Social links">
-            <li><a href="https://www.linkedin.com/in/paullisker/" target="_blank" rel="noopener noreferrer"
-                    aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a></li>
-            <li><a href="https://github.com/plisker/" target="_blank" rel="noopener noreferrer"
-                    aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
-            <li><a href="mailto:paul@lisker.me" aria-label="Email"><i class="fa-regular fa-envelope"
-                        aria-hidden="true"></i></a></li>
-        </ul>
-        <p class="meta">
-            &copy; Paul Lisker. All rights reserved
-            <span class="sep">·</span> <a href="https://lisker.me/privacy_policy">Privacy</a>
-            <span class="sep">·</span> <a href="https://lisker.me/cookie_policy">Cookies</a>
-        </p>
+      <ul class="socials" aria-label="Social links">
+        <li>
+          <a
+            href="https://www.linkedin.com/in/paullisker/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            ><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/plisker/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            ><i class="fa-brands fa-github" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href="mailto:paul@lisker.me" aria-label="Email"
+            ><i class="fa-regular fa-envelope" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
+      <p class="meta">
+        &copy; Paul Lisker. All rights reserved
+        <span class="sep">·</span>
+        <a href="https://lisker.me/privacy_policy">Privacy</a>
+        <span class="sep">·</span>
+        <a href="https://lisker.me/cookie_policy">Cookies</a>
+      </p>
     </footer>
-</body>
-
+  </body>
 </html>
