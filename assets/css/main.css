@@ -321,7 +321,6 @@ img {
     grid-template-columns: 1fr;
     gap: 2.5rem 2rem;
     padding-top: 2.75rem;
-    border-top: 1px solid var(--hairline-strong);
 }
 
 @media (min-width: 680px) {
