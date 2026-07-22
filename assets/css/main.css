@@ -173,12 +173,27 @@ img {
         align-self: stretch;
     }
 
-    .sidebar .name {
+    .sidebar .masthead {
         position: sticky;
         top: var(--frame);
         background: var(--bg);
         padding-bottom: 0.75rem;
         z-index: 2;
+    }
+
+    /* Tighten the name→tagline gap once scrolling; no-op where unsupported */
+    @supports (animation-timeline: scroll()) {
+        .sidebar .masthead .tagline {
+            animation: masthead-tighten linear both;
+            animation-timeline: scroll();
+            animation-range: 0 250px;
+        }
+    }
+}
+
+@keyframes masthead-tighten {
+    to {
+        margin-top: 0.5rem;
     }
 }
 
