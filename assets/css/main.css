@@ -165,10 +165,20 @@ img {
     }
 }
 
-/* Sidebar (~910px) doesn't fit short viewports; let it scroll with the page */
+/* Sidebar (~910px) doesn't fit short viewports; let the bio scroll with the
+   page while just the name stays pinned below the top mat bar */
 @media (min-width: 900px) and (max-height: 950px) {
     .sidebar {
         position: static;
+        align-self: stretch;
+    }
+
+    .sidebar .name {
+        position: sticky;
+        top: var(--frame);
+        background: var(--bg);
+        padding-bottom: 0.75rem;
+        z-index: 2;
     }
 }
 
